@@ -27,7 +27,7 @@ end
 
 students = Student.all
 SubjectItem.all.each do |subject_item|
-  subject_item.students << students.sample(rand(1..4))
+  subject_item.students << students.sample(rand(1..25))
 end
 
 SubjectItem.all.each do |subject_item|
