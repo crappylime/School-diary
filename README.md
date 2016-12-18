@@ -1,9 +1,5 @@
-Simple School Diary
+### :hash: Simple School Diary
 [![Build Status](https://travis-ci.org/crappylime/School-diary.svg)](https://travis-ci.org/crappylime/School-diary.svg)
-================
-
-### :hash: App description
--------------
 Simple application for managing school subjects, teaching staff and students.
 
 **Login details:**
@@ -13,7 +9,7 @@ Simple application for managing school subjects, teaching staff and students.
 
 **Heroku:**
 
-Check it out [http://.herokuapp.com/](http://.herokuapp.com/)
+Check it out [https://stark-sands-83436.herokuapp.com/](https://stark-sands-83436.herokuapp.com/)
 
 ### :closed_lock_with_key: Technology stack
 -------------
@@ -34,4 +30,4 @@ Check it out [http://.herokuapp.com/](http://.herokuapp.com/)
 
 #### :information_source: additional info
 
-**Source:** [https://github.com/netguru-training/wroclaw-ror-workshops-2015-december#white_check_mark-what-you-should-do-to-qualify-for-the-workshops](https://github.com/netguru-training/wroclaw-ror-workshops-2015-december#white_check_mark-what-you-should-do-to-qualify-for-the-workshops)
+Source: [https://github.com/netguru-training/wroclaw-ror-workshops-2015-december](https://github.com/netguru-training/wroclaw-ror-workshops-2015-december)
