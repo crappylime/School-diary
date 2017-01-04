@@ -40,4 +40,14 @@ SubjectItem.all.each do |subject_item|
   end
 end
 
+Student.all.each do |student|
+  rand(1..3).times do
+    Payment.create!(
+      student: student,
+      amount: rand(999..1999),
+      payment_date: Faker::Date.backward(14)
+    )
+  end
+end
+
 puts "Seeds: done"

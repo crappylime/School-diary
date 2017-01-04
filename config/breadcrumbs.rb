@@ -2,6 +2,16 @@ crumb :root do
   link 'RoR Workhops', root_path
 end
 
+crumb :payments do
+  link t('navbar.payments'), students_path
+end
+
+crumb :payment do |payment|
+  link "#{payment.student.decorate.full_name} / #{payment.amount} / #{payment.payment_date}"
+  payment_path(payment)
+  parent :payments
+end
+
 crumb :students do
   link t('navbar.students'), students_path
 end

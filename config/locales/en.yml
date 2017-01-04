@@ -23,6 +23,7 @@ en:
     columns:
       first_name: first name
       last_name: last name
+      full_name: full name
       birthdate: birthdate
   teacher:
     columns:
@@ -33,3 +34,7 @@ en:
     columns:
       full_name: Full name
       avg_notes: Notes avarange
+  payment:
+    columns:
+      amount: amount
+      payment_date: payment date

@@ -8,4 +8,6 @@ Rails.application.routes.draw do
   resources :students, :teachers do
     get :subjects
   end
+
+  resources :payments
 end

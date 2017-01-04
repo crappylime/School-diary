@@ -1,0 +1,13 @@
+%table.table.table-condensed
+  %tbody
+    %tr
+      %td= "#{t('student.columns.full_name')}"
+      %td= payment.student.decorate.full_name
+    %tr
+      %td= "#{t('payment.columns.amount')}"
+      %td= payment.amount
+    %tr
+      %td= "#{t('payment.columns.payment_date')}"
+      %td= payment.payment_date
+
+= link_to t('shared.back'), payments_path, class: 'btn btn-default'
