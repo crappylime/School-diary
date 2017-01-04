@@ -21,8 +21,8 @@ end
 25.times do
   Student.create!(
     first_name: Faker::Name.first_name,
-    last_name: Faker::Name.last_name
-  )
+    last_name: Faker::Name.last_name,
+    birthdate: Faker::Date.birthday(min_age = 6, max_age = 30))
 end
 
 students = Student.all
